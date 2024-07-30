@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         ivmenu = findViewById(R.id.ivMenu);
         navigationView = findViewById(R.id.navigationView);
 
-
+        Toast.makeText(this, "Adnan's Demo of Github", Toast.LENGTH_SHORT).show();
 
         refreshRecyclerView();
 
